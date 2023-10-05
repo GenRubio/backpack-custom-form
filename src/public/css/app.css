@@ -1,0 +1,37 @@
+.custom-form_loading-data {
+    margin-bottom: 20px;
+    color: #80808070;
+    display: flex;
+    align-items: center;
+}
+
+.custom-form_loading-data span {
+    margin-right: 5px;
+}
+
+.custom-form_loading-data.hidden {
+    visibility: hidden;
+}
+
+.custom-form_loading-data.show {
+    visibility: visible;
+}
+
+.custom-form-section {
+    position: relative;
+}
+
+.parent-container {
+    border: 1px solid #80808059;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.custom-form-section_block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+}

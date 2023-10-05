@@ -1,0 +1,19 @@
+{
+    "name": "genrubio/backpack-custom-form",
+    "description": "Discover the next level of custom field extensions for BackpackForLaravel with the Dynamic Form Builder. Designed for developers and site administrators, this tool gives you the capability to empower your clients with dynamic form creation and maintenance.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Genrubio\\BackpackCustomForm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gen",
+            "email": "burbianio@gmail.com"
+        }
+    ]
+}
